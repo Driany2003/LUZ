@@ -1,0 +1,35 @@
+
+
+.card[b-7hfx24iv3o] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2[b-7hfx24iv3o],
+.card h3[b-7hfx24iv3o] {
+    color: #333;
+}
+
+.card p[b-7hfx24iv3o] {
+    color: #555;
+}
+
+.card ul[b-7hfx24iv3o] {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card ul li[b-7hfx24iv3o] {
+    margin-bottom: 8px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .card[b-7hfx24iv3o] {
+        padding: 15px;
+    }
+}

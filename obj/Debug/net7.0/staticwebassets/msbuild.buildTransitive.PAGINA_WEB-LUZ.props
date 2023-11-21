@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PAGINA_WEB-LUZ.props" />
+</Project>
