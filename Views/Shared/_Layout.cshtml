@@ -43,11 +43,37 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+<script>
+    function agregarAlCarrito(productoId) {
+       var cantidad = document.getElementById(`cantidad${productoId}`).value;
+        console.log(`Producto ${productoId} agregado al carrito (${cantidad} unidad(es))`);
+  
+    
+    }
+</script>
+    <footer class="bg-dark text-light text-center py-3">
         <div class="container">
-            &copy; 2023 - PAGINA_WEB_LUZ - <a asp-area="" asp-controller="Home" asp-action="Privacy">Nosotros</a>
+            &copy; 2023 - L&K - <a asp-area="" asp-controller="Home" asp-action="Privacy">Nosotros</a>
         </div>
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Contacto</h4>
+                <p>Dirección: STAR</p>
+                <p>Email: Vapes@email.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Síguenos</h4>
+                <a href="#" class="text-light">Facebook</a>
+                <span class="mx-2">|</span>
+                <a href="#" class="text-light">Twitter</a>
+                <span class="mx-2">|</span>
+                <a href="#" class="text-light">Instagram</a>
+            </div>
+        </div>
+    </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
